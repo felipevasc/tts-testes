@@ -1,0 +1,10 @@
+{
+    "text2mel_path": "models/tacotron-gneutralspeech-44.h5",
+    "text2mel_model": "tacotron2",
+    "vocoder_path": "models/p-wavegan-gneutralspeech-44.pkl",
+    "vocoder": "parallel-wavegan",
+    "preprocess_path": "configs/44_preprocess.yaml",
+    "cfg_paths": ["configs/44_config.yaml","configs/44_preprocess.yaml","configs/stats_gneutralspeech_44.npy",["configs/cfg_tf_44.yaml","configs/cfg_pytorch_44.yaml"]],
+    "denoiser_alpha": 0.5,
+    "sample_rate": 22050
+}
